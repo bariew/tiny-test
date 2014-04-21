@@ -1,6 +1,6 @@
 <?php $data = Tiny::app()->controller->data;?>
 <form method="post" action="/login" id="user" class="text-center form-vertical">   
-<fieldset class="yellow view">
+<fieldset class=" view">
         <label class="required" for="LoginForm_email">Email <span class="required">*</span></label>
         <input type="text" id="LoginForm_email" name="LoginForm[email]" value="<?php echo @$data['LoginForm']['email'];?>">        
         <label for="LoginForm_password">Password</label>
